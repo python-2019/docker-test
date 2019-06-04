@@ -6,4 +6,4 @@ ENV APP_PATH="/app"
 ENV PATH /usr/local/bin:$PATH
 COPY . $APP_PATH
 WORKDIR $APP_PATH
-CMD python main.py
+CMD ["python" ,"main.py"]
